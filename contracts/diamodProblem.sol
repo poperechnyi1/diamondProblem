@@ -1,6 +1,6 @@
-pragma solidity ^0.4.15;
+pragma solidity ^0.4.0;
 
-contract diamodProblem {
+contract FirstContranct {
     string firstWord = "Hellow";
     
     function getHellow() constant returns (string){
@@ -13,14 +13,14 @@ contract diamodProblem {
     }
 }
 
-contract Second is diamodProblem {
+contract Second is FirstContranct {
     string firstWord = "Second Contract";
     function getHellow() constant returns(string){
         return firstWord;
     }
 }
 
-contract Third is diamodProblem {
+contract Third is FirstContranct {
     string firstWord = "Third  Contract";
     function getHellow() constant returns(string){
         return firstWord;
