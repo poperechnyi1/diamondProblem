@@ -1,5 +1,5 @@
-var Migrations = artifacts.require("./Migrations.sol");
+var DiamondProblem = artifacts.require("./DiamodProblem.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(DiamondProblem);
 };
